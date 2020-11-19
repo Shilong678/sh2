@@ -1,0 +1,10 @@
+%h1 PostCheckers#index
+%p Find me in app/views/post_checkers/index.html.haml
+=flash[:notice] 
+
+
+= form_with(url: post_checkers_path, method: "get") do
+  = label_tag(:query, "Search for:")
+  = text_field_tag(:query)
+  = submit_tag("Search")  
+

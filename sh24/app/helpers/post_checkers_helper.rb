@@ -1,0 +1,2 @@
+module PostCheckersHelper
+end
